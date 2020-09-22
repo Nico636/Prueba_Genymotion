@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         //Identificar objetos
         tw = (TextView)findViewById(R.id.editTextTextPersonName);
     }
-    public void openActivity(View view){
+    public void enviarDatos(View view){
         //Crear intent
         Intent act = new Intent(this, SegundaActivity.class);
         //Agregar datos al intent
