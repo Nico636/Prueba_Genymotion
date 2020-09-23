@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ED8F8F"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button2"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="219dp"
         android:layout_height="102dp"
         android:layout_alignParentTop="true"
@@ -17,11 +18,14 @@
         android:layout_marginTop="314dp"
         android:layout_marginEnd="104dp"
         android:layout_marginRight="104dp"
+        android:background="#A36363"
         android:fontFamily="sans-serif-medium"
         android:onClick="enviarDatos"
         android:text="@string/boton"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#FFFDFD"
+        android:textColor="#390E0E"
+        android:textColorHighlight="#A346B3"
+        android:textColorLink="#EBECF6"
         android:textStyle="italic" />
 
     <EditText
@@ -36,7 +40,7 @@
         android:layout_marginRight="113dp"
         android:ems="10"
         android:hint="@string/texto"
-        android:inputType="textPersonName"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
 
 </RelativeLayout>
