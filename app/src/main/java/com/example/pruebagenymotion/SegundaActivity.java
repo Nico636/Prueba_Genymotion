@@ -18,5 +18,6 @@ public class SegundaActivity extends AppCompatActivity {
         String valor = getIntent().getStringExtra("datos");
         //Mostrar datos en pantalla
         tw.setText(valor);
+        //Exposicion
     }
 }
